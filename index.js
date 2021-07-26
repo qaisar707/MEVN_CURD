@@ -15,6 +15,7 @@ mongoose
     useUnifiedTopology: true,
     useFindAndModify: true,
     useCreateIndex: true,
+    findOneAndDelete: true,
   })
   .then(() => console.log("Mongodb is Connected...!!"))
   .catch((err) => console.log(err));
